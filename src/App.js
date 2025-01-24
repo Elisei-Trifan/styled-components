@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Title from './components/Title'
 
 const AppWrapper = styled.div`
   width: 100%;
@@ -8,7 +9,11 @@ const AppWrapper = styled.div`
 `
 
 function App() {
-  return <AppWrapper>app</AppWrapper>
+  return (
+    <AppWrapper>
+      <Title color={'blue'}>ksdbis</Title>
+    </AppWrapper>
+  )
 }
 
 export default App
