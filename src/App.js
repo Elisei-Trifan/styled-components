@@ -19,9 +19,9 @@ function App() {
           Console cmd Trifan_Elisei
         </Title>
       </Flex>
-      <Flex direction="column">
-        <Console color="green" />
-        <Button background="green" self="flex-end" prymary>
+      <Flex direction="column" margin="10px 0px">
+        <Console color="orange" />
+        <Button color="orange" background="green" self="flex-end" outlined>
           Отправить
         </Button>
       </Flex>
