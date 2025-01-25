@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Title from './components/Title'
+import Flex from './components/Flex'
 
 const AppWrapper = styled.div`
   width: 100%;
@@ -11,7 +12,11 @@ const AppWrapper = styled.div`
 function App() {
   return (
     <AppWrapper>
-      <Title color={'blue'}>ksdbis</Title>
+      <Flex justify="center">
+        <Title fontSize="32px" color="orange">
+          Console cmd Trifan_Elisei
+        </Title>
+      </Flex>
     </AppWrapper>
   )
 }
